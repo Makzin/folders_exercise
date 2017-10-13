@@ -1,0 +1,9 @@
+<h3>{{model.name}} folder</h3>
+
+<ul>
+  {{#each model.files as |item|}}
+    <li>{{item}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}

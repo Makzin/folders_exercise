@@ -6,6 +6,14 @@ module.exports = function(environment) {
     modulePrefix: 'folders',
     environment,
     rootURL: '/',
+    firebase: {
+      apiKey: "AIzaSyA7hNiVe2g8J8W6ERet_6T14nZjUKRBkG4",
+      authDomain: "folders-85159.firebaseapp.com",
+      databaseURL: "https://folders-85159.firebaseio.com",
+      projectId: "folders-85159",
+      storageBucket: "folders-85159.appspot.com",
+      messagingSenderId: "857871664130"
+    },
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
